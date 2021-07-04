@@ -55,6 +55,12 @@ body {
   background-color: #f1f1f1;
   padding-left: 1%;
 }
+
+.column {
+  float: left;
+  width: 100%;
+  background-color: #f1f1f1;
+}
   
 /* 图像部分 */
 .img:after {
@@ -66,7 +72,7 @@ body {
 /* 文章卡片效果 */
 .card {
   background-color: white;
-  padding: 20px;
+  /* padding: 20px; */
   margin-top: 20px;
 }
   
@@ -101,8 +107,7 @@ body {
   }
 }
 
-
-/* 响应式布局 -屏幕尺寸小于 400px 时，导航等布局改为上下布局 */
+/* 手持设备支持 */
 @media handheld {
   .topnav a {
     float: none;
